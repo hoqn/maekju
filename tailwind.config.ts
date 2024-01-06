@@ -1,4 +1,7 @@
 import type { Config } from 'tailwindcss'
+import { generateColorVars } from './scripts/generate-color-vars'
+
+import pluginTypography from "@tailwindcss/typography";
 
 const config: Config = {
   content: [
@@ -13,8 +16,16 @@ const config: Config = {
         'gradient-conic':
           'conic-gradient(from 180deg at 50% 50%, var(--tw-gradient-stops))',
       },
+      colors: {
+        current: "currentColor",
+        inherit: "inherit",
+        primary: generateColorVars("el-salva"),
+        base: generateColorVars("emperor"),
+      }
     },
   },
-  plugins: [],
+  plugins: [
+    pluginTypography,
+  ],
 }
 export default config

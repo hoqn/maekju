@@ -1,0 +1,11 @@
+@import "./base/tailwind.css";
+@import "./base/color.css";
+
+html, body {
+  height: 100%;
+  min-height: 100%;
+}
+
+* {
+  -webkit-tap-highlight-color: transparent;
+}

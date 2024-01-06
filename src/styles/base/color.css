@@ -1,0 +1,57 @@
+:root {
+  /* Locked @ 700 */
+  --el-salva-50: 252 245 244;
+  --el-salva-100: 250 232 230;
+  --el-salva-200: 246 214 210;
+  --el-salva-300: 238 186 179;
+  --el-salva-400: 227 145 134;
+  --el-salva-500: 212 109 95;
+  --el-salva-600: 192 81 66;
+  --el-salva-700: 150 61 49;
+  --el-salva-800: 133 57 47;
+  --el-salva-900: 112 52 44;
+  --el-salva-950: 60 24 19;
+
+  /* Locked @ 700 */
+  --emperor-50: 248 247 247;
+  --emperor-100: 239 239 239;
+  --emperor-200: 221 218 218;
+  --emperor-300: 191 186 186;
+  --emperor-400: 155 149 149;
+  --emperor-500: 127 120 120;
+  --emperor-600: 104 97 97;
+  --emperor-700: 84 79 79;
+  --emperor-800: 72 68 68;
+  --emperor-900: 63 60 59;
+  --emperor-950: 42 39 39;
+}
+
+.dark-theme {
+  color-scheme: dark;
+
+  /* Locked @ 700 */
+  --el-salva-50: 60 24 19;
+  --el-salva-100: 112 52 44;
+  --el-salva-200: 133 57 47;
+  --el-salva-300: 150 61 49;
+  --el-salva-400: 192 81 66;
+  --el-salva-500: 212 109 95;
+  --el-salva-600: 227 145 134;
+  --el-salva-700: 238 186 179;
+  --el-salva-800: 246 214 210;
+  --el-salva-900: 250 232 230;
+  --el-salva-950: 252 245 244;
+
+  /* Locked @ 700 */
+  --emperor-50: 42 39 39;
+  --emperor-100: 63 60 59;
+  --emperor-200: 72 68 68;
+  --emperor-300: 84 79 79;
+  --emperor-400: 104 97 97;
+  --emperor-500: 127 120 120;
+  --emperor-600: 155 149 149;
+  --emperor-700: 191 186 186;
+  --emperor-800: 221 218 218;
+  --emperor-900: 239 239 239;
+  --emperor-950: 248 247 247;
+}
