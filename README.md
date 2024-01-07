@@ -1,8 +1,8 @@
-# Maekju
+# Makeju
 
 나만의 맥주를 만들어보세요!
 
-https://maekju.vercel.app/
+https://makeju.vercel.app/
 
 - 몰트(맥아)와 홉 종류를 선택할 수 있어요.
 - 선택한 재료에 맞춰 맥주의 색깔이 예측돼요. 이때 *degree Lovibond*와 *SRM* 수치를 활용했어요.
