@@ -31,6 +31,7 @@ const RAW_RUNTIME_STATE =
           ["@types/node", "npm:20.10.6"],\
           ["@types/react", "npm:18.2.46"],\
           ["@types/react-dom", "npm:18.2.18"],\
+          ["@types/uuid", "npm:9.0.7"],\
           ["autoprefixer", "virtual:c785fc62390bb9671b6ed2faaf98e89c07302910339b110e0b5a4261b8135c6fc9b1f21a94cff561b7447e5fa46d1c9e994207fa79c48dc81637840d80a9f9d9#npm:10.4.16"],\
           ["class-variance-authority", "npm:0.7.0"],\
           ["framer-motion", "virtual:c785fc62390bb9671b6ed2faaf98e89c07302910339b110e0b5a4261b8135c6fc9b1f21a94cff561b7447e5fa46d1c9e994207fa79c48dc81637840d80a9f9d9#npm:10.17.9"],\
@@ -42,6 +43,7 @@ const RAW_RUNTIME_STATE =
           ["tailwind-merge", "npm:2.2.0"],\
           ["tailwindcss", "npm:3.4.0"],\
           ["typescript", "patch:typescript@npm%3A5.3.3#optional!builtin<compat/typescript>::version=5.3.3&hash=e012d7"],\
+          ["uuid", "npm:9.0.1"],\
           ["zustand", "virtual:c785fc62390bb9671b6ed2faaf98e89c07302910339b110e0b5a4261b8135c6fc9b1f21a94cff561b7447e5fa46d1c9e994207fa79c48dc81637840d80a9f9d9#npm:4.4.7"]\
         ],\
         "linkType": "SOFT"\
@@ -442,6 +444,15 @@ const RAW_RUNTIME_STATE =
         "packageLocation": "../../../AppData/Local/Yarn/Berry/cache/@types-scheduler-npm-0.16.8-303819b439-10c0.zip/node_modules/@types/scheduler/",\
         "packageDependencies": [\
           ["@types/scheduler", "npm:0.16.8"]\
+        ],\
+        "linkType": "HARD"\
+      }]\
+    ]],\
+    ["@types/uuid", [\
+      ["npm:9.0.7", {\
+        "packageLocation": "../../../AppData/Local/Yarn/Berry/cache/@types-uuid-npm-9.0.7-c380bb8654-10c0.zip/node_modules/@types/uuid/",\
+        "packageDependencies": [\
+          ["@types/uuid", "npm:9.0.7"]\
         ],\
         "linkType": "HARD"\
       }]\
@@ -1355,6 +1366,7 @@ const RAW_RUNTIME_STATE =
           ["@types/node", "npm:20.10.6"],\
           ["@types/react", "npm:18.2.46"],\
           ["@types/react-dom", "npm:18.2.18"],\
+          ["@types/uuid", "npm:9.0.7"],\
           ["autoprefixer", "virtual:c785fc62390bb9671b6ed2faaf98e89c07302910339b110e0b5a4261b8135c6fc9b1f21a94cff561b7447e5fa46d1c9e994207fa79c48dc81637840d80a9f9d9#npm:10.4.16"],\
           ["class-variance-authority", "npm:0.7.0"],\
           ["framer-motion", "virtual:c785fc62390bb9671b6ed2faaf98e89c07302910339b110e0b5a4261b8135c6fc9b1f21a94cff561b7447e5fa46d1c9e994207fa79c48dc81637840d80a9f9d9#npm:10.17.9"],\
@@ -1366,6 +1378,7 @@ const RAW_RUNTIME_STATE =
           ["tailwind-merge", "npm:2.2.0"],\
           ["tailwindcss", "npm:3.4.0"],\
           ["typescript", "patch:typescript@npm%3A5.3.3#optional!builtin<compat/typescript>::version=5.3.3&hash=e012d7"],\
+          ["uuid", "npm:9.0.1"],\
           ["zustand", "virtual:c785fc62390bb9671b6ed2faaf98e89c07302910339b110e0b5a4261b8135c6fc9b1f21a94cff561b7447e5fa46d1c9e994207fa79c48dc81637840d80a9f9d9#npm:4.4.7"]\
         ],\
         "linkType": "SOFT"\
@@ -2454,6 +2467,15 @@ const RAW_RUNTIME_STATE =
         "packageLocation": "../../../AppData/Local/Yarn/Berry/cache/util-deprecate-npm-1.0.2-e3fe1a219c-10c0.zip/node_modules/util-deprecate/",\
         "packageDependencies": [\
           ["util-deprecate", "npm:1.0.2"]\
+        ],\
+        "linkType": "HARD"\
+      }]\
+    ]],\
+    ["uuid", [\
+      ["npm:9.0.1", {\
+        "packageLocation": "../../../AppData/Local/Yarn/Berry/cache/uuid-npm-9.0.1-39a8442bc6-10c0.zip/node_modules/uuid/",\
+        "packageDependencies": [\
+          ["uuid", "npm:9.0.1"]\
         ],\
         "linkType": "HARD"\
       }]\
